@@ -2,7 +2,7 @@
 
 import tensorflow as tf
 
-# parameter
+# 함수의 파라미터와 비슷하게 타입을 미리 정해놓고 실행시점에 값을 설정
 a = tf.placeholder(tf.int16)
 b = tf.placeholder(tf.int16)
 
